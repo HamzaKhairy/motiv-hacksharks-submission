@@ -1,0 +1,5 @@
+// Conversations
+export const UPDATE_CONVERSATION_USER_IDS = "UPDATE_CONVERSATION_USER_IDS";
+
+// User
+export const UPDATE_USER = "UPDATE_USER";

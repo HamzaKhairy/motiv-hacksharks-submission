@@ -1,0 +1,45 @@
+ion-title{
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.PhotoTitle{
+    color: white;
+}
+
+.PhotoCard{
+    height: 40%;
+    width:100%;
+    border-radius: 10%;
+    --background: black;
+    margin-top: 75px;
+
+}
+
+.VideoCard{
+    height:40%;
+    width:100%;
+    border-radius: 10%;
+
+}
+
+.PhotoButton{
+    --background: rgb(145, 0, 0);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.VideoButton{
+    --background: rgb(0, 0, 0);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

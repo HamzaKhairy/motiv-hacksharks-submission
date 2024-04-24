@@ -1,0 +1,22 @@
+.event-modal {
+  --border-radius: 25px 25px 0px 0px;
+}
+
+
+.event-title {
+    font-family: 'lovelo', sans-serif;
+    font-size: 24px !important;
+    margin-bottom: 15px; /* Add some spacing below the title */
+  }
+
+.event-subtitle {
+  font-size: 16px !important;
+  font-family: 'lovelo', sans-serif;
+
+}
+
+
+.event-info {
+  white-space: pre-wrap; /* Preserve line breaks and wrap long text */
+  word-wrap: break-word; /* Wrap long words */
+  font-size: 16px !important;  }

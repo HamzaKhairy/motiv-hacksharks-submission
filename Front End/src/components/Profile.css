@@ -1,0 +1,9 @@
+/* Profile.css */
+.profile-card {
+  border-radius: 35px; 
+  /* position: absolute; */
+  /* vertical-align: middle; */
+  /* right: 10px; */
+  z-index: 1; 
+  /* width: fit-content; */
+}

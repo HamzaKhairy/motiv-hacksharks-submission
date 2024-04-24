@@ -1,0 +1,36 @@
+body {
+  color: 'white';
+  font-family: 'lovelo', sans-serif;
+}
+
+.primary-text {
+  color: #ffffff;
+  font-family: 'lovelo', sans-serif;
+}
+
+.h2-text {
+  color: #939393;
+  font-family: 'lovelo', sans-serif;
+}
+
+.ion-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ion-col-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ion-col-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+ion-grid {
+  --ion-grid-padding: 20px;
+}

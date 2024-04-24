@@ -1,0 +1,1 @@
+.container{display:flex;align-items:center;position:relative;cursor:"pointer"}.rectangle{background-color:red;display:flex;justify-content:center;align-items:center}.semicircle{background-color:red}.circular-image{position:absolute;top:50%;transform:translateY(-50%);border-radius:50%;object-fit:cover;transition:left .25s ease}.container>p{color:#fff}

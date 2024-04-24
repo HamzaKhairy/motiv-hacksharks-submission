@@ -1,0 +1,45 @@
+/* ion-item:hover {
+    --background: #5cffa8;
+    --color: var(--ion-color-dark);
+  }
+  
+  ion-item {
+    --padding-start: 20px;
+  }
+  
+  ion-item::part(detail-icon) {
+    color: #ff00ff;
+    opacity: 1;
+  }
+   */
+
+.div-title {
+  font-family: 'lovelo', sans-serif;
+}
+
+/* Styling for Create Event Modal */
+.event-modal {
+  --background: var(--ion-color-primary); /* Set the background color to primary */
+  --border-radius: 20px; /* Adjust the border-radius for rounded corners */
+}
+
+.event-modal ion-content {
+  --background: var(--ion-color-primary); /* Set the background color to primary */
+}
+
+ion-datetime {
+  --background: red /* Set the background color to primary */
+  border-radius: 10px;
+  padding: 0 1.25rem !important;
+  margin-top: 0.25rem;
+  font-size: 1rem;
+}
+
+ion-datetime::part(text) {
+  display: flex;
+  align-items: center;
+}
+
+
+
+

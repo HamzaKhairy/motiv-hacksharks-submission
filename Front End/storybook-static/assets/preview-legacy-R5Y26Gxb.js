@@ -1,0 +1,1 @@
+System.register(["./iframe-legacy-dGpCT3Oe.js","../sb-preview/runtime.js"],(function(e,r){"use strict";var t;return{setters:[e=>{t=e._},null],execute:function(){e("parameters",{docs:{renderer:async()=>{let{DocsRenderer:e}=await t((()=>r.import("./DocsRenderer-NNNQARDV-legacy-XjKAzMDG.js").then((e=>e.D))),void 0,r.meta.url);return new e}}})}}}));

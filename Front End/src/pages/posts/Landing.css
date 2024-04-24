@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    height: 10%; /* Adjust as needed */
+  }
+  
+  .circle-container {
+    position: relative;
+  }
+  
+  .circle {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color: #e0e0e0; /* Color of the unfilled circle */
+    position: relative;
+  }
+  
+  .fill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #ff0000; /* Color of the filled circle */
+    clip-path: inset(0 0 0 50%);
+  }
+  
+  .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #000000; /* Color of the text */
+  }
+  
+
+  .center-circle {
+    position: absolute;
+    width: 75%; /* Adjust size as needed */
+    height: 75%; /* Adjust size as needed */
+    background-color: #ffffff; /* Color of the center circle */
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure it's above the fill */
+  }
+  

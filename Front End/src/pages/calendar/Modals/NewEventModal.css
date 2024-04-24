@@ -1,0 +1,11 @@
+.new-event-modal {
+    --border-radius: 25px 25px 0px 0px;
+  }
+
+.event-save {
+    color: #ffffff;
+    font-family: 'lovelo', sans-serif;
+}
+.new-title {
+    font-family: 'lovelo', sans-serif;
+  }

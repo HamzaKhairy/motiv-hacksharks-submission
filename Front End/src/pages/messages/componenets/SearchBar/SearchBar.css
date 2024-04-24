@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: 'pointer';
+    width: '100%';
+  }
+  
+  .rectangle {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .semicircle {
+    /* background-color: blue; */
+  }
+  
+  .circular-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    object-fit: cover;
+    transition: left 0.25s ease;
+  }
+  

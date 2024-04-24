@@ -1,0 +1,44 @@
+.image{
+    object-fit:contain;
+}
+
+.Avatar{
+    border: 4px solid grey;
+    height: 100px;
+    width: 100px;
+}
+
+.AvatarLabel{
+    font-size: 30px;
+}
+
+.Username{
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.Bio{
+   padding-top: 0px; 
+}
+
+.ProfileCard{
+    Height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.profileCol{
+    padding: 1px;
+}
+
+.profileGrid{
+    padding:1px;
+    margin: 1px;
+}
+
+.profileContent{
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}

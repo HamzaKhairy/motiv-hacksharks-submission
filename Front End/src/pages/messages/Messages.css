@@ -1,0 +1,19 @@
+.plainButton {
+    background: none; /* Removes any background styling */
+    border: none; /* Removes the border */
+    padding: 0; /* Resets padding to zero */
+    margin: 0; /* Resets margin to zero */
+    font: inherit; /* The button's font will inherit from its parent container */
+    color: #939393; /* The button's text color will also inherit from its parent */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
